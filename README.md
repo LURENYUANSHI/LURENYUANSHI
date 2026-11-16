@@ -15,6 +15,8 @@
   AI application engineer, 2 years in: started on Java backends, now building **full-stack AI products**
 - **Agent 平台**：Agentic RAG、工作流编排、多知识库混合检索（Elasticsearch + RRF）  
   **Agent platform:** agentic RAG, workflow orchestration, and hybrid search across many knowledge bases (Elasticsearch + RRF)
+- **法律 AI**：涉外法律工作台，长合同 map-reduce 审查、敏感信息脱敏、修订建议导出为 Word 修订稿，按国家路由法规知识库  
+  **Legal AI:** a cross-border legal workbench with map-reduce review of long contracts, redaction of sensitive data, suggestions exported as Word tracked changes, and retrieval routed to each country's law base
 - **实时语音 AIoT**：Go 业务平台 + Python 语音 Runtime + LiveKit，多实例横向扩展  
   **Realtime voice AIoT:** a Go business platform, a Python voice runtime, and LiveKit, scaled out across instances
 - **端到云**：嵌入式 RTOS 上的唤醒词与语音会话，直连云端 Agent  
@@ -96,8 +98,8 @@
 <tr>
 <td align="center">RTOS 唤醒词<br/><sub>RTOS wake words</sub><br/>离线提示音<br/><sub>Offline voice prompts</sub><br/>语音会话上云<br/><sub>Voice sessions to the cloud</sub></td>
 <td align="center">Go 平台 + Python Runtime<br/><sub>Go platform + Python runtime</sub><br/>LiveKit 会话调度<br/><sub>LiveKit session dispatch</sub><br/>多实例租约与排空<br/><sub>Multi-instance leases & draining</sub></td>
-<td align="center">Agentic RAG<br/><sub>Retrieval-driven agents</sub><br/>工作流引擎<br/><sub>Workflow engine</sub><br/>多知识库检索<br/><sub>Multi-KB retrieval</sub></td>
-<td align="center">React / Vue 前端<br/><sub>React / Vue frontends</sub><br/>钉钉机器人<br/><sub>DingTalk bots</sub><br/>企业内部系统<br/><sub>Internal business systems</sub></td>
+<td align="center">Agentic RAG<br/><sub>Retrieval-driven agents</sub><br/>工作流引擎<br/><sub>Workflow engine</sub><br/>多知识库检索<br/><sub>Multi-KB retrieval</sub><br/>合同审查 Agent<br/><sub>Contract review agent</sub></td>
+<td align="center">React / Vue 前端<br/><sub>React / Vue frontends</sub><br/>涉外法律工作台<br/><sub>Cross-border legal workbench</sub><br/>钉钉机器人<br/><sub>DingTalk bots</sub><br/>企业内部系统<br/><sub>Internal business systems</sub></td>
 </tr>
 </tbody>
 </table>
