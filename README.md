@@ -58,7 +58,7 @@
 
 ### 实时语音与 AIoT · Realtime Voice & AIoT
 ![WebRTC](https://img.shields.io/badge/WebRTC-333333?style=flat-square&logo=webrtc&logoColor=white)
-![LiveKit](https://img.shields.io/badge/LiveKit-1F1F1F?style=flat-square)
+![软硬结合 · Hardware + Software](https://img.shields.io/badge/%E8%BD%AF%E7%A1%AC%E7%BB%93%E5%90%88_%C2%B7_Hardware_%2B_Software-FF6F00?style=flat-square)
 ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
 
 `Voice Runtime` `KWS` `TURN` `RTOS` `Horizontal Scaling`
