@@ -17,8 +17,8 @@
   **Agent platform:** agentic RAG, workflow orchestration, and hybrid search across many knowledge bases (Elasticsearch + RRF)
 - **法律 AI**：涉外法律工作台，长合同 map-reduce 审查、敏感信息脱敏、修订建议导出为 Word 修订稿，按国家路由法规知识库  
   **Legal AI:** a cross-border legal workbench with map-reduce review of long contracts, redaction of sensitive data, suggestions exported as Word tracked changes, and retrieval routed to each country's law base
-- **实时语音 AIoT**：Go 业务平台 + Python 语音 Runtime + LiveKit，多实例横向扩展  
-  **Realtime voice AIoT:** a Go business platform, a Python voice runtime, and LiveKit, scaled out across instances
+- **实时语音 AIoT**：Go 业务平台 + Python 语音 Runtime，设备经 WebSocket 实时传音，多实例横向扩展  
+  **Realtime voice AIoT:** a Go business platform and a Python voice runtime, with devices streaming audio over WebSocket, scaled out across instances
 - **端到云**：嵌入式 RTOS 上的唤醒词与语音会话，直连云端 Agent  
   **Device to cloud:** wake words and voice sessions on an embedded RTOS, connected straight to cloud agents
 - **AI 协作开发**：用 skills / hooks / 自动测试与评审关卡，让 AI 写的代码能稳定合进主干  
@@ -57,11 +57,11 @@
 <td align="center" width="50%">
 
 ### 实时语音与 AIoT · Realtime Voice & AIoT
-![WebRTC](https://img.shields.io/badge/WebRTC-333333?style=flat-square&logo=webrtc&logoColor=white)
+![WebSocket](https://img.shields.io/badge/WebSocket-333333?style=flat-square)
 ![软硬结合 · Hardware + Software](https://img.shields.io/badge/%E8%BD%AF%E7%A1%AC%E7%BB%93%E5%90%88_%C2%B7_Hardware_%2B_Software-FF6F00?style=flat-square)
 ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
 
-`Voice Runtime` `KWS` `TURN` `RTOS` `Horizontal Scaling`
+`Voice Runtime` `KWS` `RTOS` `Realtime Audio` `Horizontal Scaling`
 
 </td>
 <td align="center" width="50%">
@@ -97,7 +97,7 @@
 <tbody>
 <tr>
 <td align="center">RTOS 唤醒词<br/><sub>RTOS wake words</sub><br/>离线提示音<br/><sub>Offline voice prompts</sub><br/>语音会话上云<br/><sub>Voice sessions to the cloud</sub></td>
-<td align="center">Go 平台 + Python Runtime<br/><sub>Go platform + Python runtime</sub><br/>LiveKit 会话调度<br/><sub>LiveKit session dispatch</sub><br/>多实例租约与排空<br/><sub>Multi-instance leases & draining</sub></td>
+<td align="center">Go 平台 + Python Runtime<br/><sub>Go platform + Python runtime</sub><br/>WebSocket 实时音频<br/><sub>Realtime audio over WebSocket</sub><br/>多实例租约与排空<br/><sub>Multi-instance leases & draining</sub></td>
 <td align="center">Agentic RAG<br/><sub>Retrieval-driven agents</sub><br/>工作流引擎<br/><sub>Workflow engine</sub><br/>多知识库检索<br/><sub>Multi-KB retrieval</sub><br/>合同审查 Agent<br/><sub>Contract review agent</sub></td>
 <td align="center">React / Vue 前端<br/><sub>React / Vue frontends</sub><br/>涉外法律工作台<br/><sub>Cross-border legal workbench</sub><br/>钉钉机器人<br/><sub>DingTalk bots</sub><br/>企业内部系统<br/><sub>Internal business systems</sub></td>
 </tr>
