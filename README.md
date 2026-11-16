@@ -110,7 +110,7 @@
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td valign="top">
 <strong><a href="https://github.com/LURENYUANSHI/agent-sandbox">AgentSandbox</a> | AI Agent 执行沙箱 · An execution sandbox for AI agents</strong>
 <br/><br/>
 围绕权限策略、执行记录与回放调试构建，提供 MCP 接入、Python SDK 和可视化控制台。
@@ -118,15 +118,6 @@
 A runtime sandbox built around permission policies, execution traces, and replay debugging, with MCP integration, a Python SDK, and a visual dashboard.
 <br/><br/>
 <code>Go</code> <code>Gin</code> <code>React</code> <code>MCP</code> <code>OpenTelemetry</code>
-</td>
-<td width="50%" valign="top">
-<strong><a href="https://github.com/LURENYUANSHI/keepa_scout_challenge">Keepa Scout</a> | 电商数据分析与对话助手 · E-commerce analytics and a conversational assistant</strong>
-<br/><br/>
-Keepa 数据处理、商品资格与 ROI 分析、多轮 AI 对话与后台数据刷新。
-<br/><br/>
-Keepa data processing, product eligibility and ROI analysis, multi-turn AI conversations, and background data refresh.
-<br/><br/>
-<code>Python</code> <code>LangGraph</code> <code>Vue 3</code> <code>Celery</code> <code>Docker</code>
 </td>
 </tr>
 </table>
